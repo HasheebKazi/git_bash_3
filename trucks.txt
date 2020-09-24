@@ -1,1 +1,3 @@
-I am a Truck.
+I am a truck.
+I have 18 Wheeles.
+My engine is 600HP.
