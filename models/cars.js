@@ -26,6 +26,11 @@ class Car {
     set sunRoof(bool) {
         this.sunRoof = this.sunRoof || false;
     }
+
+    helloWorld() {
+        return "Hello World";
+    }
+
 }
 
 window.onload = () => {
