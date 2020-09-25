@@ -26,6 +26,12 @@ class Car {
     set sunRoof(bool) {
         this.sunRoof = this.sunRoof || false;
     }
+
+    set wheeles(wheeles) {
+        if (typeof wheeles === 'number' && wheeles >= 0) {
+            this.wheeles = wheeles;
+        }
+    }
 }
 
 window.onload = () => {
