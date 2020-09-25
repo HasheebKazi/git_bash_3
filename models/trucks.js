@@ -8,6 +8,11 @@ class Truck {
         return "I have " + this.wheeles + " wheeles.";
     }
 
+    set wheeles(wheeles) {
+        if (typeof wheeles === 'number' && wheeles >= 0) {
+            this.wheeles = wheeles;
+        }
+    }
 }
 
 window.onload = () => {
