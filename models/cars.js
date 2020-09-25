@@ -23,6 +23,6 @@ class Car {
 }
 
 window.onload = () => {
-    const car1 = new Car(12, 400);
+    const car1 = new Car(4, 100);
     console.log(car1.wheeles);
 };
