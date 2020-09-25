@@ -7,6 +7,7 @@ class Truck {
     get wheeles() {
         return this.wheeles + " :bb";
     }
+
 }
 
 window.onload = () => {
