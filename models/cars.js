@@ -16,6 +16,10 @@ class Car {
     get sunRoof() {
         return this.sunRoof ? "Has sun roof." : "Doesn't have sun roof.";
     }
+
+    set sunRoof(bool) {
+        this.sunRoof = this.sunRoof || false;
+    }
 }
 
 window.onload = () => {
