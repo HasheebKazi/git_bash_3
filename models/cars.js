@@ -17,6 +17,12 @@ class Car {
         return this.sunRoof ? "Has sun roof." : "Doesn't have sun roof.";
     }
 
+    set engine(engine) {
+        if (typeof engine === 'number' && engine >= 0) {
+            this.engine = engine;
+        }
+    }
+
     set sunRoof(bool) {
         this.sunRoof = this.sunRoof || false;
     }
