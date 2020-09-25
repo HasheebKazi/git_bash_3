@@ -8,6 +8,11 @@ class Truck {
         return this.wheeles + " :bb";
     }
 
+    set wheeles(wheeles) {
+        if (typeof wheeles === 'number' && wheeles >= 0) {
+            this.wheeles = wheeles;
+        }
+    }
 }
 
 window.onload = () => {
