@@ -32,6 +32,11 @@ class Car {
             this.wheeles = wheeles;
         }
     }
+
+    helloWorld() {
+        return "Hello World";
+    }
+
 }
 
 window.onload = () => {
