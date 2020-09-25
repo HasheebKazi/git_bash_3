@@ -5,7 +5,7 @@ class Truck {
     }
 
     get wheeles() {
-        return this.wheeles + " :bb";
+        return "I have " + this.wheeles + " wheeles.";
     }
 
 }
