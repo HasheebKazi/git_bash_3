@@ -15,10 +15,12 @@ class Truck {
     }
 
     get engine(engine) {
+        // added some useless comments
         return "I have ", + engine + " hp.";
     }
 
     set engine(engine) {
+        // added some useless comments
         if (typeof wheeles === 'number' && wheeles >= 0) {
             this.egine = engine;
         }
