@@ -13,6 +13,16 @@ class Truck {
             this.wheeles = wheeles;
         }
     }
+
+    get engine(engine) {
+        return "I have ", + engine + " hp.";
+    }
+
+    set engine(engine) {
+        if (typeof wheeles === 'number' && wheeles >= 0) {
+            this.egine = engine;
+        }
+    }
 }
 
 window.onload = () => {
