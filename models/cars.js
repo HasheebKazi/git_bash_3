@@ -34,7 +34,7 @@ class Car {
     }
 
     randoFunc22() {
-        return 22;
+        return 23;
     }
 
 
