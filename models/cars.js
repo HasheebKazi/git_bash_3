@@ -37,6 +37,10 @@ class Car {
         return 24;
     }
 
+    randoFunc40() {
+        return 40;
+    }
+
 
 
     helloWorld() {
