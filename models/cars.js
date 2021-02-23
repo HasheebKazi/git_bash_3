@@ -33,6 +33,12 @@ class Car {
         }
     }
 
+    randoFunc22() {
+        return 22;
+    }
+
+
+
     helloWorld() {
         return "Hello World";
     }
