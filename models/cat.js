@@ -5,9 +5,11 @@ class Pet {
 }
 
 class Cat extends Pet {
-    constructor(species, name) {
+    constructor(species, name, favFood) {
         super(species);
         this.name = name;
+
+        this.favFood = favFood;
     }
 
     get name() {
