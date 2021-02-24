@@ -5,18 +5,18 @@ class Pet {
 }
 
 class Cat extends Pet {
-    constructor(species, name, favFood) {
+    constructor(species, petName, favFood) {
         super(species);
-        this.name = name;
+        this.petName = petName;
 
         this.favFood = favFood;
     }
 
-    get name() {
-        return this.name + "";
+    get petName() {
+        return this.petName + "";
     }
 
-    set name(name) {
-        this.name = name;
+    set petName(petName) {
+        this.petName = petName;
     }
 }
