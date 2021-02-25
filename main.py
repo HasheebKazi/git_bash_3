@@ -1,5 +1,8 @@
-from models.cats import Cat
+from models.cats import Math
 
-cat1 = Cat('Doggo')
-cat2 = Cat('Shiba')
+binaryOP1 = Math(1,2);
+print(binaryOP1.add());
 
+
+
+assert sum([1,2]) == 2, "should be 3"
